@@ -1,0 +1,36 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+#context-menu{
+    position: absolute;
+    border: 1px solid #d3d3d3;
+    background-color: #e3e3e3;
+    padding: 10px 0;
+    z-index: 100000;
+    display: none;
+}
+
+#context-menu.active{
+    display: initial;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item{
+    padding: 0 10px;
+}
+
+.menu-item:hover{
+    background-color: #d3d3d3;
+}
+
+.menu-separator{
+    height: 1px;
+    background-color: grey;
+    margin: 5px 0;
+}
